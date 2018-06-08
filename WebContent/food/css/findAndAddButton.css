@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#findButton, #addButton{
+	border-radius: 10px;
+}
+#findButton
+{
+	background-color:#ffffff;
+	width:80px;
+	height:40px;
+	color:#000000;
+	font-size: 22px;
+	float:right;
+}
+#addButton{
+	background-color:#5BC263;
+	width:120px;
+	height:40px;
+	color:#000000;
+	font-size: 22px;
+}

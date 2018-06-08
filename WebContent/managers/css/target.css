@@ -1,0 +1,87 @@
+@charset "UTF-8";
+form{
+	margin-left: 20px;
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+form input{
+	height: 25px;
+	width: 180px;
+	font-size: 22px;
+}
+a{
+	text-decoration: none;
+}
+table{
+	width: 90%;
+	font-size: 25px;
+	border-collapse: collapse;
+	margin-left: 20px;
+}
+tr td{
+	border: 1px solid gray;
+	padding: 5px;
+}
+tr>th{
+	text-align: left;
+	background-color: #E5E9ED;
+	padding: 5px;
+}
+.targetTable tr>th:nth-child(1){
+	width: 10%;
+}
+.targetTable tr>th:nth-child(2){
+	width: 15%;
+}
+.targetTable tr>th:nth-child(3){
+	width: 30%;
+}
+.targetTable tr>th:nth-child(4){
+	width: 30%;
+}
+.targetTable tr>th:nth-child(5){
+	width: 15%;
+}
+
+.mvManagementTable tr>th:nth-child(1){
+	width: 30%;
+}
+.mvManagementTable tr>th:nth-child(2){
+	width: 30%;
+}
+.mvManagementTable tr>th:nth-child(3){
+	width: 15%;
+}
+.mvManagementTable tr>th:nth-child(4){
+	width: 15%;
+}
+.mvManagementTable tr>th:nth-child(5){
+	width: 10%;
+}
+.page{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 140px;
+	margin-top: 20px;
+}
+.page button{
+	height: 40px;
+	width: 80px;
+	color: white;
+	border-radius: 20%;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: blue;
+}
+.page input:nth-child(4){
+	height: 40px;
+	width: 120px;
+	text-align: center;
+}
+.page input:nth-child(6){
+	height: 40px;
+	width: 80px;
+	text-align: center;
+}
+
+
